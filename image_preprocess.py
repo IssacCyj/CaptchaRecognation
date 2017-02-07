@@ -4,6 +4,7 @@ import numpy as np
 def image_preprocess(test_image0):
 	#read image
 	# test_image0 = cv2.imread(image_path)
+	
 	#resize to 28*28
 	test_image1 = cv2.resize(test_image0,(28,28))
 	#convert RGB to GRAY
