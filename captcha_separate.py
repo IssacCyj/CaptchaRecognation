@@ -62,9 +62,6 @@ def separate_captcha(image_path):
 
 
 
-
-
-
 	#print r[0],r[1],r[2],r[3]
 	# print x0,y0,w0,h0
 	#print np.shape(image)
@@ -83,6 +80,5 @@ def separate_captcha(image_path):
 
 	# cv2.imshow('image',image)
 	# cv2.imshow('captcha',dilate)
-	# cv2.imshow('captcha',cap)
 	# cv2.imshow('captcha',captcha)
 	# cv2.waitKey()
