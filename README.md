@@ -7,15 +7,15 @@ Tensorflow is used to build a three-layer CNN to recognize the number.
 The CNN architecture is like conv-conv-pool-conv-pool-fc-softmax, which is really simple. You can modify it to whatever you like.
 
 ##The requirements:
-funcsigs==1.0.2
-mock==2.0.0
-numpy==1.11.2
-pbr==1.10.0
-protobuf==3.2.0
-six==1.10.0
-TBB==0.1
-tensorflow==0.12.1
-opencv==2.4.11
+funcsigs==1.0.2<br>
+mock==2.0.0<br>
+numpy==1.11.2<br>
+pbr==1.10.0<br>
+protobuf==3.2.0<br>
+six==1.10.0<br>
+TBB==0.1<br>
+tensorflow==0.12.1<br>
+opencv==2.4.11<br>
 
 ##Training
 run python captcha_recognition.py train
